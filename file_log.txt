@@ -1,0 +1,14 @@
+0:Starting logger (type = file) at log level 0.
+0:Ending logger.
+0:Starting logger (type = file) at log level 1.
+1:Important message.
+0:Ending logger.
+0:Starting logger (type = file) at log level 2.
+1:Important message.
+2:Less important message.
+0:Ending logger.
+0:Starting logger (type = file) at log level 3.
+1:Important message.
+2:Less important message.
+3:Not important message.
+0:Ending logger.
