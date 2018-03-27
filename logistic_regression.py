@@ -15,7 +15,7 @@ class logistic_regression(classifier):
 
 
     def fit(self, Xin, Yin):
-        print 'Logistic Regression classifier - fit'
+        print ('Logistic Regression classifier - fit')
 
         X = np.mat(Xin)
         Y = np.mat(Yin).transpose()
