@@ -1,5 +1,6 @@
 from numpy import *
 from time import sleep
+from classifier import classifier
 
 def loadDataSet(fileName):
     dataMat = []; labelMat = []
@@ -201,7 +202,7 @@ def plot_withoutline(datamatrix, labelmatrix):
     plt.ylabel('x2')
     plt.show()
     
-class svm_basic:
+class svm_basic(classifier):
 
     def __init__(self):
         self.C = 1
